@@ -109,8 +109,7 @@
   }
 
   // To adjust the position of the AlertView
-  UIScreen *screen = [UIScreen mainScreen];
-  CGRect rect = screen.bounds;
+  CGRect rect = self.superview.frame;
   self.center = CGPointMake(rect.size.width / 2, rect.size.height / 2);
 
 }
