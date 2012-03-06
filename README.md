@@ -1,6 +1,6 @@
-CBAlertView
+CBAlertTableView
 ======================
-CBAlertView is a thing to be able to use a UITableView based on the UIAlertView.  
+CBAlertTableView is a thing to be able to use a UITableView based on the UIAlertView.  
 
 By providing an array of strings, you can create a UIAlertView including UITabaleView that displays the string.
  
