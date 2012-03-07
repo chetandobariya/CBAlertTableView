@@ -22,8 +22,8 @@ When you use, you must implement the CBAlertTableViewDelegate.
     - (void)canceled;
     @end
 
-`selectedIndex` is called when a cell is selected. The index origin is 0.  
-`canceled` is called when it is canceled.
+`selectedIndex` : Called when a cell is selected. The index origin is 0.  
+`canceled` : Called when it is canceled.
 
 Sample Source
 -----
